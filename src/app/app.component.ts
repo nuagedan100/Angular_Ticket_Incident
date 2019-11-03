@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { homedir } from 'os';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front-end';
+  items = ['home','contact'];
+  login ='';
+  password = '';
+
+
+  //functions
+  OnAlert(){
+    alert('clicked');
+  }
+
+  
+  onSubmit(event: any){
+  console.log(this.login);
+  return this.login;
 }
+}
+
