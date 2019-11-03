@@ -12,12 +12,16 @@ export class AppComponent {
   password = '';
 
 
+
   //functions
-  OnAlert(){
-    alert('clicked');
+  onClickedContact(){
+    alert(this.login);
   }
 
-  
+  onClickedHome(){
+    alert('Home');
+  }
+
   onSubmit(event: any){
   console.log(this.login);
   return this.login;
