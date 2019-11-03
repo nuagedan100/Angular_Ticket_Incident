@@ -45,11 +45,53 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: darksalmon;
+    height: 500px;
 }
 
 .form {
-    background-color: darkgray;
     height: 100px;
-    width: 300px;
+    width: 150px;
     margin-top: 100px;
+}
+
+span {
+    display: block;
+    float: left;
+}
+
+.label {
+    display: block;
+    float: left;
+}
+
+.input_login {
+    display: block;
+    float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+.input_password {
+    display: block;
+    float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+.submit {
+    display: block;
+    float: right;
 }

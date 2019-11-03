@@ -10,10 +10,11 @@
         </div>
         <div class="login">
             <div class="form " (submit)="onSubmit()">
-                <label for=" "></label>
-                <input type="text " class="login " [(ngModel)]="login">
-                <input type="text " class="password " [(ngModel)]="password">
-                <input type="submit">
+                <label for=" " class="label">Email</label>
+                <input type="text " class="input_login" [(ngModel)]="login" ng-model="control" ng-change="control()">
+                <label for=" " class="input_password">Password</label>
+                <input type="text " class="input_password" [(ngModel)]="password">
+                <input type="submit" class="submit">
                 <span>{{login}}</span>
                 <span>{{password}}</span>
             </div>

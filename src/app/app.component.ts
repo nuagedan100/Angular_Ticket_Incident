@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'front-end';
-  items = ['home','contact'];
+  title = 'Ticket Incident';
+  items = ['Home','Message','Ticket','Contact'];
   login ='';
   password = '';
 
@@ -26,5 +26,14 @@ export class AppComponent {
   console.log(this.login);
   return this.login;
 }
+
+control(){
+  if(this.login.length > 6) {
+    alert('mot de pass surperieur a 6');
+    
+  }
+}
+  
+
 }
 
