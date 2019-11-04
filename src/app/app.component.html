@@ -9,15 +9,23 @@
             </nav>
         </div>
         <div class="login">
-            <div class="form " (submit)="onSubmit()">
-                <label for=" " class="label">Email</label>
-                <input type="text " class="input_login" [(ngModel)]="login" ng-model="control" ng-change="control()">
-                <label for=" ">Password</label>
-                <input type="text " class="input_password" [(ngModel)]="password">
-                <input type="submit" class="submit">
-                <span>{{login}}</span>
-                <span>{{password}}</span>
+            <div class="bloc_left">
+                <h1>SE CONNECTER</h1>
+                <div class="form " (submit)="onSubmit()">
+                    <label for=" " class="label">ADRESSE EMAIL</label>
+                    <input type="text " class="input_login" [(ngModel)]="login" ng-model="control" ng-change="control()">
+                    <label for=" " class="label">MOT DE PASSE</label>
+                    <input type="text " class="input_password" [(ngModel)]="password">
+                    <input type="submit" class="submit" value="SE CONNECTER">
+                    <span>{{login}}</span>
+                    <span>{{password}}</span>
+                </div>
+
             </div>
+            <div class="bloc_right">
+                <h1>INFO</h1>
+            </div>
+
         </div>
     </div>
 </div>
