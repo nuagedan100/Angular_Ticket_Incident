@@ -29,12 +29,20 @@ ul {
 
 
 /*
-a:visited {}
-a:active {}
+
+
 */
 
+a:active {
+    color: seashell;
+}
+
 a:hover {
-    color: brown;
+    color: red;
+}
+
+a:visited {
+    color: seashell;
 }
 
 a {
@@ -63,35 +71,47 @@ span {
 .label {
     display: block;
     float: left;
+    width: 100px;
 }
 
 .input_login {
     display: block;
     float: left;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border: none;
     outline: none;
     height: 30px;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-bottom: 10px;
 }
 
 .input_password {
     display: block;
     float: left;
+    outline: none;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    background: seagreen;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: seashell;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: none;
-    outline: none;
-    height: 30px;
-}
-
-.submit {
-    display: block;
-    float: right;
+    text-transform: uppercase;
 }
