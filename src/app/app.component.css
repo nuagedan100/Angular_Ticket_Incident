@@ -1,7 +1,7 @@
 /*HOME*/
 
 .warpper {
-    background-color: beige;
+    /*background-color: beige;*/
     height: 1000px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -45,7 +45,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darksalmon;
+    /*background-color: darksalmon;*/
     height: 500px;
 }
 
