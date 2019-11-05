@@ -161,3 +161,10 @@ span {
     -ms-border-radius: 0 50px 50px 0;
     -o-border-radius: 0 50px 50px 0;
 }
+
+.warpper img {
+    display: inline-block;
+    position: absolute;
+    left: 49%;
+    top: 130px;
+}
