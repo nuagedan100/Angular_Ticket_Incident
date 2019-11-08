@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  link = 'asset/images/';
+  link = 'assets/images/';
   title = 'Ticket Incident';
   items = ['Home','Message','Ticket','Contact'];
   login ='';

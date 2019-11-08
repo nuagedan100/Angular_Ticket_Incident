@@ -14,7 +14,7 @@
 nav {
     background-color: darkgray;
     height: auto;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 ul {
@@ -66,11 +66,13 @@ a {
 }
 
 .login {
+    position: relative;
     display: flex;
     align-items: left;
     justify-content: center;
     /*background-color: darksalmon;*/
     height: 500px;
+    z-index: 999;
 }
 
 .form {
@@ -165,6 +167,7 @@ span {
 .warpper img {
     display: inline-block;
     position: absolute;
-    left: 49%;
-    top: 130px;
+    left: 240px;
+    top: -152px;
+    z-index: -1;
 }

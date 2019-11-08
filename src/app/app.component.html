@@ -7,10 +7,12 @@
                     <li class="link"><a href="#" (click)="onClickedContact(login)">{{item}}</a></li>
                 </ul>
             </nav>
-            <img class="logo" src="{{link}}logo.png" alt="">
+
         </div>
         <div class="login">
+
             <div class="bloc_left">
+                <img class="logo" src="{{link}}logo_jmh_link.png" alt="">
                 <h1>SE CONNECTER</h1>
                 <div class="form " (submit)="onSubmit()">
                     <label for=" " class="label">ADRESSE EMAIL</label>
@@ -18,6 +20,7 @@
                     <label for=" " class="label">MOT DE PASSE</label>
                     <input type="text " class="input_password" [(ngModel)]="password">
                     <input type="submit" class="submit" value="SE CONNECTER">
+                    <!-- DEBUG TEST INPUT-->
                     <span>{{login}}</span>
                     <span>{{password}}</span>
                 </div>
