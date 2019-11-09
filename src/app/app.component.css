@@ -207,6 +207,15 @@ span {
     -o-border-radius: 50%;
 }
 
+.circle_1:hover {
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
 .circle_2 {
     width: 10px;
     height: 10px;
@@ -216,6 +225,15 @@ span {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.circle_2:hover {
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
 .circle_3 {
@@ -229,6 +247,15 @@ span {
     -o-border-radius: 50%;
 }
 
+.circle_3:hover {
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
 .circle_4 {
     width: 10px;
     height: 10px;
@@ -238,4 +265,13 @@ span {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.circle_4:hover {
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
