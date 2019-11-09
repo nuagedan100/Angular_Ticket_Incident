@@ -14,7 +14,7 @@
 nav {
     background-color: darkgray;
     height: auto;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 
 ul {
@@ -170,4 +170,13 @@ span {
     left: 240px;
     top: -152px;
     z-index: -1;
+}
+
+.bloc_right p {
+    position: absolute;
+    color: #8BDECC;
+    top: 120px;
+    left: 20px;
+    max-width: 280px;
+    text-align: center;
 }
