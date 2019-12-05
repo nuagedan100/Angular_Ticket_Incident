@@ -30,7 +30,7 @@ export class AppComponent {
 
 control(){
   if(this.login.length > 6) {
-    alert('mot de pass surperieur a 6');
+    alert('mot de pass superieur a 6');
     
   }
 }
