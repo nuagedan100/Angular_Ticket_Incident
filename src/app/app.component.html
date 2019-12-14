@@ -12,10 +12,10 @@
         <!--Warpper Login-->
         <div class="login">
             <!--Bloc Left-->
-            <form class="bloc_left">
+            <div class="bloc_left">
                 <img class="logo" src="{{link}}logo_jmh_link.png" alt="">
                 <h1>SE CONNECTER</h1>
-                <div class="form " (submit)="onSubmit()">
+                <form class="form " (submit)="onSubmit()">
                     <label for=" " class="label">ADRESSE EMAIL</label>
                     <input type="text " class="input_login" [(ngModel)]="login" ng-model="control" ng-change="control()">
                     <label for=" " class="label">MOT DE PASSE</label>
